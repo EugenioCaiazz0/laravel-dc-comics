@@ -22,7 +22,11 @@
             <td> {{$comic->series}} </td>
             <td> {{$comic->sale_date}} </td>
             <td> {{$comic->type}} </td>
-
+            <td>
+                <a href="" class="btn btn-success "> <i class="fa-regular fa-eye"> </a>
+                <a href="" class="btn btn-warning "> <i class="fa-solid fa-pencil"> </a>
+                <a href="" class="btn btn-danger "> <i class="fa-solid fa-trash"> </a>
+            </td>
         </tr>
     @endforeach
 
