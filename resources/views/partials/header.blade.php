@@ -1,6 +1,15 @@
 <header>
-    <h1>Header</h1>
 
-    <a href="{{route('home')}}">Home</a>
-    <a href="{{route('comics.index')}}"> Index </a>
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href="{{route('home')}}"> Home </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{route('comics.index')}}"> Index </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{route('comics.create')}}"> Add </a>
+        </li>
+    </ul>
+
 </header>
